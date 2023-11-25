@@ -1,0 +1,19 @@
+body{
+    background-color: #808080;
+    color: #ffffff;
+}
+q {
+    font-style: italic;
+  }
+  abbr {
+    font-style: italic;
+    color: rgb(243, 186, 145);
+  }
+  a[href^='mailto']::before {
+    content: '📧 ';
+  }
+  
+  a[href^='tel']::before {
+    content: '📞 ';
+  }
+  
